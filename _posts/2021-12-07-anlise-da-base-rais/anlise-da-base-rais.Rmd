@@ -11,11 +11,66 @@ output:
     self_contained: false
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Esse é o meu primeiro projeto no portfólio.
+## Regras Gerais de marcação
+
+*Esse* é o meu **primeiro projeto** no [portfólio]{.ul}.
+
+-- Riscar um Texto --
+
+Formatar um texto como código: usethis::use_git()
+
+Como colocar colocar um link? [Blog da Curso-R](httos://blog.curso-r.com/)
+
+Nomear pessoas:
+
+### Lista não numeradas
+
+-   Beatriz
+-   Julio
+
+### Lista numeradas
+
+1.  Beatriz
+2.  Julio
+
+## Imagens
+
+![](https://pbs.twimg.com/media/ETC2h97XYAAXPkU?format=jpg&name=small)
+
+## Código em R
+
+```{r echo=TRUE}
+# aqui a gente coloca o código em R
+  1 + 1
 
 
+```
+
+  Criamos um campo de código!
+  
+```{r echo=TRUE, message=FALSE, warning=FALSE}
+  library(tidyverse)
+
+```
+  Tabela:
+  
+```{r}
+  knitr::kable(mtcars)
+
+```
+ 
+ 
+ Imagem/Gráfico:
+
+```{r,out.width ="90%",fig.align = 'center',dpi = 300,fig.cap="Grafico da base mtcars",layout ="l-body-outset"}
+  plot(mtcars$mpg, mtcars$hp)
+
+``` 
+ 
+## Código em linha
+
+Hoje é o dia `r Sys.Date()`.
