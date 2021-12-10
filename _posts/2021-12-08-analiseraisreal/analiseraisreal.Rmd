@@ -81,7 +81,7 @@ Pergunta principal de pesquisa:
 
 > Quem trabalha com ciência de daos ganha quanto?
 
-```{r,eval =FALSE}
+```{r}
 codigos_cbo <- c(
   "252515", "252525", "211110",
   # pesquisa/cientista
@@ -103,7 +103,7 @@ microdados_tbl <- tbl(conexao, "microdados_vinculos") %>%
   ) %>% 
   head(5000)
 ```
-```{r}
+```{r, eval=FALSE}
 tabela_microdados_vinculos <- collect(microdados_tbl)
 View(tabela_microdados_vinculos)
 
@@ -159,5 +159,17 @@ ggplot(tabela_medias) +
   geom_col() +
   scale_x_continuous(breaks = 2013:2019)
 
+
+```
+Agora vamos ver os números exatos:
+
+```{r}
+library(knitr)
+tabela_medias %>% 
+  kable()
+```
+```{r}
+readr::write_rds(tabela_microdados_vinculos,
+        "tabela_microdados_vinculos.rds",compress = "xz")
 
 ```

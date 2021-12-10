@@ -5,15 +5,15 @@
     "description": "A short description of the post.",
     "author": [
       {
-        "name": "Nora Jones",
+        "name": "Jorge Luiz Mendes",
         "url": "https://example.com/norajones"
       }
     ],
     "date": "2021-12-08",
     "categories": [],
-    "contents": "\r\nNesse relatório estamos interessados em responder a pergunta:\r\n“Quanto ganha um cientista da dados?”\r\nPara isso vamos utilizar a base da RAIS anonimizada\r\nAcessando os dados RAIS\r\nVamos utilizar [o datalake da iniciativa base dos dados] (https://basedosdados.org).\r\n\r\n\r\n\r\nAbaixo está o código que carrega as primeiras 5 linhas da tabela de microdados.\r\n\r\n[1] 2\r\n\r\n\r\n<BigQueryConnection>\r\n  Dataset: basedosdados.br_me_rais\r\n  Billing: semanads-334510\r\n\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2021-12-08T17:48:54-03:00",
+    "contents": "\r\nNesse relatório estamos interessados em responder a pergunta:\r\n“Quanto ganha um cientista da dados?”\r\nPara isso vamos utilizar a base da RAIS anonimizada\r\nAcessando os dados RAIS\r\nVamos utilizar [o datalake da iniciativa base dos dados] (https://basedosdados.org).\r\n\r\n\r\n\r\nAbaixo está o código que carrega as primeiras 5 linhas da tabela de microdados.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nA base de dados que queremos analisar aqui é a base de pessoas que (potencialmente) trabalham com ciência de dados. Existe um Código Brasileiro de Ocupações (CBO), que tem um cadastro de todas de todas as ocupações formais no Brasil. Vamos pegar alguns códigos que são relacionados a ciência de dados e filtrar a base da RAIS para obter dados dessas pessoas.\r\nPergunta principal de pesquisa:\r\n\r\nQuem trabalha com ciência de daos ganha quanto?\r\n\r\n\r\n\r\n\r\nA base com apenas 5000 linhas\r\n\r\n\r\n\r\n\r\n\r\n\r\nAgora com a base completa\r\n\r\n\r\n\r\nPerguntas de pesquisa\r\nQuanto ganha uma pessoa que trabalha com ciência de dados\r\nPerguntas mais específicas\r\nQuanto o valor médio varia no tempo?\r\nQuanto o valor médio varia regionalmente?\r\nQuanto o valor médio varia por características das pessoas?\r\nGênero\r\nRaça/cor\r\nIdade\r\n\r\n[Desafio] Qual cargo tem a maior taxa de crescimento dentro daquele setor da economia (CNAE) proporcionalmente a municípios com mais pessoas empregadas naquela CBO\r\nComo variam os salários médios no tempo?\r\n\r\n\r\n\r\nAgora vamos ver os números exatos:\r\n\r\nano\r\nmedia_salario\r\n2013\r\n3457.553\r\n2014\r\n3702.131\r\n2015\r\n4229.452\r\n2016\r\n4409.327\r\n2017\r\n4969.977\r\n2018\r\n4886.116\r\n2019\r\n4969.408\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-12-08-analiseraisreal/analiseraisreal_files/figure-html5/unnamed-chunk-9-1.png",
+    "last_modified": "2021-12-10T19:31:44-03:00",
     "input_file": "analiseraisreal.knit.md"
   },
   {
