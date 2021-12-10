@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-12-08-analiseraisreal/",
+    "title": "analise_rais_real",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Nora Jones",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2021-12-08",
+    "categories": [],
+    "contents": "\r\nNesse relatório estamos interessados em responder a pergunta:\r\n“Quanto ganha um cientista da dados?”\r\nPara isso vamos utilizar a base da RAIS anonimizada\r\nAcessando os dados RAIS\r\nVamos utilizar [o datalake da iniciativa base dos dados] (https://basedosdados.org).\r\n\r\n\r\n\r\nAbaixo está o código que carrega as primeiras 5 linhas da tabela de microdados.\r\n\r\n[1] 2\r\n\r\n\r\n<BigQueryConnection>\r\n  Dataset: basedosdados.br_me_rais\r\n  Billing: semanads-334510\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-08T17:48:54-03:00",
+    "input_file": "analiseraisreal.knit.md"
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Portfolio do Jorge",
     "description": "Welcome to our new blog, Portfolio do Jorge. We hope you enjoy \nreading what we have to say!",
